@@ -26,7 +26,7 @@ def print_history(length=10):
 def best_books():
 	"""
 	Print a list contaning the 3 books that have been lent the most.
-	This will aid the staff for the next book purchase
+	This will aid the staff for the next book purchase for the library
 	"""
 	return
 
