@@ -46,9 +46,6 @@ def save_books_to_file(file):
 def insert_individual_book(name, author, country, year, ISBN):
 	"""
 	Insert a book in the database.
-
-	If the book already exists in the database, update the number of samples (+1)
-	If it's not, add a new record to the database with samples=1
 	"""
 
 	return
