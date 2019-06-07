@@ -61,6 +61,8 @@ def print_book_list():
 	The list of books shall be grouped by ISBN, and the number of samples for each
 	book also has to be printed.
 
+	Order the list by the number of samples
+
 	For example:
 
 		Book name			ISBN	samples
