@@ -129,9 +129,6 @@ def add_user(DNI, Name):
 	"""
 	Add user to the database
 	If the user is already on the database (same DNI), then update the user name
-
-	The DNI can be a string or an int, and if it's a string it can contain "." 
-	or spaces, be careful with those!)
 	"""
 
 	return
@@ -139,8 +136,7 @@ def add_user(DNI, Name):
 def remove_user(DNI):
 	import mv_functions as mv
 	"""
-	Remove a user from the database given it's DNI (the DNI can be a string or an int, and if
-	it's a string it can contain "." or spaces, be careful with those!)
+	Remove a user from the database given it's DNI
 
 	If the user has a book lent to him, perform the function return_book(DNI) (see 
 	mv_functions.py)
