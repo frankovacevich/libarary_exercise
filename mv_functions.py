@@ -43,7 +43,7 @@ def find_available_books(book_name):
 
 	return
 
-def return_book(user_DNI):
+def return_book(book_code):
 	"""
 	This function shall be called when the user returns a book
 
