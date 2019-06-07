@@ -98,6 +98,8 @@ def print_table(data):
 def find_book_by_name(book_name):
 	"""
 	Return the code of the book that has a similar name to the one given
+	
+	If no book is found return None
 	"""
 	return
 
