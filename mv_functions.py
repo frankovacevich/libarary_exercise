@@ -27,7 +27,7 @@ def lend_book(book_code, user_DNI):
 	Generate an "operation code" for each lending operation (in case the user has a
 	complaint or something). The operation code must be an 32bit int
 	
-	If the book is already lent print an error message
+	If the book is already lent or the user already has a book print an error message
 	"""
 
 	return
