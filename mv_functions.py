@@ -1,6 +1,8 @@
 
-## Number of days a book is lent to a user.
-LENDING_PERIOD = 7;
+## Constants
+LENDING_PERIOD = 7
+MAX_BOOKS_LENT_PER_USER = 1
+SANCTION_PERIOD = 7
 
 """
 Basic rules for lending:
