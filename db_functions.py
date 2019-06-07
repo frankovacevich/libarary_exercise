@@ -76,6 +76,25 @@ def print_book_list():
 
 	return
 
+def print_table(data):
+	"""
+	This is a helper function to print pretty tables.
+	It uses the pandas library (you may need to install it with pip)
+
+	The data must be a list of dicts, for example:
+
+		data = 	[
+			   {'column1' : 'value', 'column2' : value, ...}
+			   {'column1' : 'value', 'column2' : value, ...}
+			   .
+			   .
+			   .
+			]
+
+	"""
+	df = pd.DataFrame(data)
+	print(df)
+
 def find_book_by_name(book_name):
 	"""
 	Return the code of the book that has a similar name to the one given
