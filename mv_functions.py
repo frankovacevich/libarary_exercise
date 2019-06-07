@@ -4,6 +4,8 @@ LENDING_PERIOD = 7
 MAX_BOOKS_LENT_PER_USER = 1
 SANCTION_PERIOD = 7
 
+CONN = None
+
 """
 Basic rules for lending:
  - A user can only borrow 1 book at a time
