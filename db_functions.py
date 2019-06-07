@@ -47,6 +47,10 @@ def insert_individual_book(code, name, author, country, year, ISBN):
 	"""
 	Insert a book in the database.
 	Each book in the library has a 6 digit code that is UNIQUE, and it's assigned by the librarians.
+	
+	If there is already a book with the same code in the database, print an error message
+
+	Return True if the book was successfully inserted, or False otherwise
 	"""
 
 	return
