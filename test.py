@@ -11,6 +11,8 @@ import st_functions as st
 ##
 
 db.mysql_connect()
+mv.CONN = db.CONN
+st.CONN = db.CONN
 
 db.load_books_from_file(db.BOOKS_BACKUP)
 db.load_users_from_file(db.USERS_BACKUP)
